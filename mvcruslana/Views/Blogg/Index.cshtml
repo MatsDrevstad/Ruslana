@@ -1,0 +1,22 @@
+﻿@using System.Linq;
+@model IEnumerable<MvcRuslana.Entities.BlogItem>
+
+@{
+    ViewBag.Title = "";
+}
+
+
+@foreach (var item in Model)
+{
+    <div>
+        <h2 class="h2 myh2">
+            @Html.DisplayFor(modelItem => item.BlogHeader)
+        </h2>
+        <h6>@Html.DisplayFor(modelItem => item.BlogCreated)</h6>
+        @Html.ActionLink("Läs mer här", "BlogDetail", new { id = item.Id })
+        <br />
+            <img src="~/Ruslana/Images/@Url.Content(item.Photos[0].FileName)" width="250" />
+    </div>
+    <div>&nbsp;</div>
+}
+

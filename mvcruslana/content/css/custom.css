@@ -1,0 +1,23 @@
+﻿body {
+    padding-top: 10px;
+    /*padding-left: 20px;*/
+    /*background-image: url('../../Images/bg.png');*/
+    @link-color: red;
+}
+.myh4 {
+    padding-top: 40px;
+    text-align: left;
+}
+
+.myh2 {
+    padding-top: 40px;
+    text-align: left;
+}
+
+.myparagraph {
+    white-space:pre-line;
+}
+
+.myinput { 
+    width: 250px
+}

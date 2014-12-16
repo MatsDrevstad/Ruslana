@@ -1,0 +1,21 @@
+﻿@model MvcRuslana.Entities.BlogItem
+
+<div>
+    <h2 class="h2 myh2">
+        @Html.DisplayFor(model => model.BlogHeader)
+    </h2>
+    <h6>
+        @Html.DisplayFor(model => model.BlogCreated)
+    </h6>
+    <p>
+        <span style="white-space:pre-line">
+            @Html.DisplayFor(model => model.BlogText)
+        </span>
+    </p>
+@foreach (var item in Model.Photos)
+{
+    <img src="~/Ruslana/images/@Url.Content(item.FileName)" /><br /><br />
+}
+    
+</div>
+<div>&nbsp;</div>

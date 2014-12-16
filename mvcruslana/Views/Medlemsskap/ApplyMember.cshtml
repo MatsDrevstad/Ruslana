@@ -1,0 +1,18 @@
+﻿@model MvcRuslana.Models.Medlem
+
+@{
+    ViewBag.Title = "ApplyMember";
+}
+
+<h4 class="h4 myh4">Epostformulär</h4>
+
+@using (Html.BeginForm("ApplyMember", "Medlemsskap"))
+{
+    <fieldset>
+        <legend>Medlemsskap</legend>
+        @Html.TextBoxFor(model => model.Namn, new { @Value = "Ange namn", @class = "form-control" }) <br />
+        @Html.TextBoxFor(model => model.Email, new { @Value = "Ange epost", @class = "form-control" }) <br />
+        @Html.TextAreaFor(model => model.Meddelande, 5, 77, new { @Value = "Ange personnummer, namn och eventuellet telefon för nya medlemmar här.", @class = "form-control" }) <br />
+        <input type="submit" value="Skicka" class="btn btn-default" />
+    </fieldset>
+}
