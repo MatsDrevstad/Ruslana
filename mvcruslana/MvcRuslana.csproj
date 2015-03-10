@@ -247,6 +247,10 @@
     <Content Include="Images\20120613.jpg" />
     <Content Include="Images\ABF_logga_ska_vara.jpg" />
     <Content Include="Images\bg.png" />
+    <Content Include="Ruslana\images\blogg\DSC02727.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC02728.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC02737.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC02744.JPG" />
     <Content Include="Images\folksam.jpg" />
     <Content Include="Images\folksamryska.docx" />
     <None Include="Properties\PublishProfiles\Citynetwork.pubxml" />

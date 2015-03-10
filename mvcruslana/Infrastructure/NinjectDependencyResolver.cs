@@ -37,6 +37,28 @@ namespace MvcRuslana.Infrastructure
 
                 new BlogItem
                 { 
+                    Id = 49, 
+                    BlogCreated = new DateTime(2015,03,09), 
+                    BlogHeader = @"Tack för den 8 mars", 
+                    BlogText =  @"Hej Kära vänner!" + Environment.NewLine + 
+                        @"Jag vill så hjärtligt tacka alla som kom och deltog vid Kvinnokonferensen" + Environment.NewLine + 
+                        @"""Likvärdighet bör alltid existera"" den 8 mars på Askims Montessoriskola." + Environment.NewLine + 
+                        @"Ett särskilt tack till våra gäster Vladimir Reznik (Han har mångårig erfarenhet som jurist) och Didar Zuta ordförande i Centerkvinnorna i Göteborg, ni gjorde den här dagen unik. Tack till Tatiana Miralm för all" + Environment.NewLine + 
+                        @"nyttig information om Folksam och dess fina hjälpmedel. Tack för Petre Cataneanu  är illusionisten som alltid skapar magi på alla våra evenemang." + Environment.NewLine + 
+                        @"Ännu ett tack till var och en av er som kom, hoppas ni hade en trevlig dag, ta hand om varandra," + Environment.NewLine + 
+                        @" speciellt om era käraste kvinnor och vi ser framemot att se er alla nästa år igen." + Environment.NewLine + 
+                        @"Med vänlig hälsning." + Environment.NewLine + 
+                        @"Tetyana Rep - ordförande ",
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/DSC02727.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC02728.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC02737.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC02744.JPG" },
+                    }
+                },   
+                new BlogItem
+                { 
                     Id = 48, 
                     BlogCreated = new DateTime(2014,10,26), 
                     BlogHeader = @"Temautbildning SIOS", 
