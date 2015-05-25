@@ -277,6 +277,14 @@
     <Content Include="Ruslana\images\blogg\DSC02599.JPG" />
     <Content Include="Ruslana\images\blogg\DSC02603.JPG" />
     <Content Include="Ruslana\images\blogg\DSC02605.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC02801.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC02823.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC02826.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC02832.JPG" />
+    <Content Include="Ruslana\images\DSC02801.JPG" />
+    <Content Include="Ruslana\images\DSC02823.JPG" />
+    <Content Include="Ruslana\images\DSC02826.JPG" />
+    <Content Include="Ruslana\images\DSC02832.JPG" />
     <Content Include="Ruslana\images\folksamryska.docx" />
     <Content Include="Ruslana\images\folksamryska.old.docx" />
     <None Include="Scripts\jquery-1.8.2-vsdoc.js" />

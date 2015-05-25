@@ -37,6 +37,25 @@ namespace MvcRuslana.Infrastructure
 
                 new BlogItem
                 { 
+                    Id = 50, 
+                    BlogCreated = new DateTime(2015,05,25), 
+                    BlogHeader = @"I HOPP OM EN LJUSARE FRAMTID 10 maj", 
+                    BlogText =  @"Kära medlemmar!
+                        Tack så hjärtligt till alla som deltog och var närvarande den 10 maj på konsert "" I HOPP OM EN LJUSARE FRAMTID"" där pianisten Elena Glagoleva och operasångerskan Irina Moshkova- Paulsen och flöjtist Anastasija Bila och barnen Daria och Ludmila framförde fantastiska låtar." + Environment.NewLine +
+                        @"Alltid ett nöje att se så många bekanta ansikten." + Environment.NewLine +
+                        @"Vi ses snart igen!" + Environment.NewLine +
+                        @"Med vänlig hälsning." + Environment.NewLine +
+                        @"Tetyana Rep - ordförande",
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/DSC02801.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC02823.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC02826.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC02832.JPG" },
+                    }
+                },   
+                new BlogItem
+                { 
                     Id = 49, 
                     BlogCreated = new DateTime(2015,03,09), 
                     BlogHeader = @"Tack för den 8 mars", 
