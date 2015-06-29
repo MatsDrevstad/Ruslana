@@ -442,26 +442,26 @@ namespace MvcRuslana.Infrastructure
                         new BlogPhoto { FileName = "blogg/DSC01923.jpg" },
                     }
                 },
-                new BlogItem
-                { 
-                    Id = 32,
-                    BlogCreated = new DateTime(2013,05,07),
-                    BlogHeader = @"Alexsander Tkach",
-                    BlogText = @"Hej kärra medlemmar!" + Environment.NewLine + 
-                                @" Jag vill tacka Shahla  Alamshahi  för den trafiksäkerhetsföreläsningen." + Environment.NewLine + 
-                                @" Det var jätte givande för vuxna och barnen. Vi kunde se många bilder" + Environment.NewLine + 
-                                @" och höra fakta som gör oss extra försiktiga i trafiken." + Environment.NewLine + 
-                                @" Med vänlig hälsning." + Environment.NewLine + 
-                                @" Tetyana Rep - ordförande", 
-                    Photos = new List<BlogPhoto>() 
-                    {
-                        new BlogPhoto { FileName = "blogg/DSC01941.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01961.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01969.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01978.jpg" },
+                //new BlogItem
+                //{ 
+                //    Id = 32,
+                //    BlogCreated = new DateTime(2013,05,07),
+                //    BlogHeader = @"Alexsander Tkach",
+                //    BlogText = @"Hej kärra medlemmar!" + Environment.NewLine + 
+                //                @" Jag vill tacka Shahla  Alamshahi  för den trafiksäkerhetsföreläsningen." + Environment.NewLine + 
+                //                @" Det var jätte givande för vuxna och barnen. Vi kunde se många bilder" + Environment.NewLine + 
+                //                @" och höra fakta som gör oss extra försiktiga i trafiken." + Environment.NewLine + 
+                //                @" Med vänlig hälsning." + Environment.NewLine + 
+                //                @" Tetyana Rep - ordförande", 
+                //    Photos = new List<BlogPhoto>() 
+                //    {
+                //        new BlogPhoto { FileName = "blogg/DSC01941.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01961.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01969.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01978.jpg" },
 
-                    }
-                },
+                //    }
+                //},
                 new BlogItem
                 { 
                     Id = 31,
