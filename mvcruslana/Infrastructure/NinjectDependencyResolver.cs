@@ -406,26 +406,26 @@ namespace MvcRuslana.Infrastructure
                         new BlogPhoto { FileName = "blogg/DSC02000.jpg" },
                     }
                 },
-                new BlogItem
-                { 
-                    Id = 34,
-                    BlogCreated = new DateTime(2013,06,17),
-                    BlogHeader = @"Seminarium",
-                    BlogText = @"Hej Kära medlemmar!" + Environment.NewLine + 
-                                @" Tack så hjärtligt till alla som deltog och var närvarande den 7 maj" + Environment.NewLine + 
-                                @" på konserten ""Vi HAR VUNNIT TILLSAMMANS"" där Alexsander Tkach" + Environment.NewLine + 
-                                @" framförde fantastiska låtar. Alltid ett nöje att se så många bekanta ansikten." + Environment.NewLine + 
-                                @" Vi ses snart igen!" + Environment.NewLine + 
-                                @" MVH. Tetyana Rep", 
-                    Photos = new List<BlogPhoto>() 
-                    {
-                        new BlogPhoto { FileName = "blogg/DSC01941.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01961.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01969.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01978.jpg" },
+                //new BlogItem
+                //{ 
+                //    Id = 34,
+                //    BlogCreated = new DateTime(2013,06,17),
+                //    BlogHeader = @"Seminarium",
+                //    BlogText = @"Hej Kära medlemmar!" + Environment.NewLine + 
+                //                @" Tack så hjärtligt till alla som deltog och var närvarande den 7 maj" + Environment.NewLine + 
+                //                @" på konserten ""Vi HAR VUNNIT TILLSAMMANS"" där Alexsander Tkach" + Environment.NewLine + 
+                //                @" framförde fantastiska låtar. Alltid ett nöje att se så många bekanta ansikten." + Environment.NewLine + 
+                //                @" Vi ses snart igen!" + Environment.NewLine + 
+                //                @" MVH. Tetyana Rep", 
+                //    Photos = new List<BlogPhoto>() 
+                //    {
+                //        new BlogPhoto { FileName = "blogg/DSC01941.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01961.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01969.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01978.jpg" },
                         
-                    }
-                },
+                //    }
+                //},
                 new BlogItem
                 { 
                     Id = 33,
@@ -678,31 +678,31 @@ namespace MvcRuslana.Infrastructure
                         new BlogPhoto { FileName = "blogg/IMG_1219.jpg" },
                     }
                 },
-                new BlogItem
-                { 
-                    Id = 21,
-                    BlogCreated = new DateTime(2012,05,08),
-                    BlogHeader = @"VI HAR VUNNIT TILLSAMMANS",
-                    BlogText = @"Hej kära vänner!" + Environment.NewLine + 
-                                @"" + Environment.NewLine + 
-                                @"Jag vill så hjärligt tacka alla,som kom och deltog vid konsert ""VI HAR VUNNIT TILLSAMMANS"" den 8 maj på Emigranternas Hus." + Environment.NewLine + 
-                                @"Ett särskillt tack till ALEKSANDR TKACH, sångare, kompositör, bard från Ukraina." + Environment.NewLine + 
-                                @"Det var en upplevelse." + Environment.NewLine + 
-                                @"" + Environment.NewLine + 
-                                @"Ett stort tack." + Environment.NewLine + 
-                                @"MVH. Tetyana Rep - ordförande", 
-                    Photos = new List<BlogPhoto>() 
-                    {
-                        new BlogPhoto { FileName = "blogg/DSC01401.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01399.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01403.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01404.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01405.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01406.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01410.jpg" },
-                        new BlogPhoto { FileName = "blogg/DSC01415.jpg" },
-                    }
-                },
+                //new BlogItem
+                //{ 
+                //    Id = 21,
+                //    BlogCreated = new DateTime(2012,05,08),
+                //    BlogHeader = @"VI HAR VUNNIT TILLSAMMANS",
+                //    BlogText = @"Hej kära vänner!" + Environment.NewLine + 
+                //                @"" + Environment.NewLine + 
+                //                @"Jag vill så hjärligt tacka alla,som kom och deltog vid konsert ""VI HAR VUNNIT TILLSAMMANS"" den 8 maj på Emigranternas Hus." + Environment.NewLine + 
+                //                @"Ett särskillt tack till ALEKSANDR TKACH, sångare, kompositör, bard från Ukraina." + Environment.NewLine + 
+                //                @"Det var en upplevelse." + Environment.NewLine + 
+                //                @"" + Environment.NewLine + 
+                //                @"Ett stort tack." + Environment.NewLine + 
+                //                @"MVH. Tetyana Rep - ordförande", 
+                //    Photos = new List<BlogPhoto>() 
+                //    {
+                //        new BlogPhoto { FileName = "blogg/DSC01401.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01399.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01403.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01404.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01405.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01406.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01410.jpg" },
+                //        new BlogPhoto { FileName = "blogg/DSC01415.jpg" },
+                //    }
+                //},
                 new BlogItem
                 { 
                     Id = 20,
