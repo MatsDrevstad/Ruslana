@@ -867,46 +867,46 @@ namespace MvcRuslana.Infrastructure
                         new BlogPhoto { FileName = "blogg/2011416.jpg" },
                     }
                 },
-                new BlogItem
-                { 
-                    Id = 15,
-                    BlogCreated = new DateTime(2011,07,07),
-                    BlogHeader = @"St George`s Band",
-                    BlogText = @"Hej kära medlemmar!" + Environment.NewLine + 
-                                @" " + Environment.NewLine + 
-                                @"Den 8 maj Ukrainska Alliansen i Sverige tillsammans med" + Environment.NewLine + 
-                                @"Ukrainskt - Svenskt Kulturförening genomför i Sverige en aktion" + Environment.NewLine + 
-                                @"""St George`s Band"" startar runt om i världen och även i Sverige" + Environment.NewLine + 
-                                @"på kämparerna mot fascismen gravarna. " + Environment.NewLine + 
-                                @" " + Environment.NewLine + 
-                                @"VÄLKOMNA!" + Environment.NewLine + 
-                                @" " + Environment.NewLine + 
-                                @"Aktionen är ägnat påminnelsen av Segern i Det Stora försterländska kriget och" + Environment.NewLine + 
-                                @"Eurodagen, som hyllar slutet av det Andra världskriget." + Environment.NewLine + 
-                                @" " + Environment.NewLine + 
-                                @"Välkomna alla som vill hedra minnet av kämparna mot fascismen genom att" + Environment.NewLine + 
-                                @"tända Ljus och symboliskt lägga blommor på gravarna." + Environment.NewLine + 
-                                @" " + Environment.NewLine + 
-                                @"Program" + Environment.NewLine + 
-                                @"Göteborg" + Environment.NewLine + 
-                                @"Den 8 maj, kl: 11.00 på Askim Montessoriskola utställning ""Tack"" eller ""Minnas""." + Environment.NewLine + 
-                                @"Efter utställningen konsert med pianisten Irina Belkovskaja. Prisutdelning för alla" + Environment.NewLine + 
-                                @"deltagarer av barnmåleritävling." + Environment.NewLine + 
-                                @"Kaffe och kakor. Fri entre." + Environment.NewLine + 
-                                @" " + Environment.NewLine + 
-                                @"MVH. Tetyana Rep", 
-                    Photos = new List<BlogPhoto>() 
-                    {
-                        new BlogPhoto { FileName = "blogg/dsc00461.jpg" },
-                        new BlogPhoto { FileName = "blogg/dsc00462.jpg" },
-                        new BlogPhoto { FileName = "blogg/dsc00464.jpg" },
-                        new BlogPhoto { FileName = "blogg/dsc00471.jpg" },
-                        new BlogPhoto { FileName = "blogg/dsc00477.jpg" },
-                        new BlogPhoto { FileName = "blogg/dsc00478.jpg" },
-                        new BlogPhoto { FileName = "blogg/dsc00479.jpg" },
-                        new BlogPhoto { FileName = "blogg/dsc00480.jpg" },
-                    }
-                },
+                //new BlogItem
+                //{ 
+                //    Id = 15,
+                //    BlogCreated = new DateTime(2011,07,07),
+                //    BlogHeader = @"St George`s Band",
+                //    BlogText = @"Hej kära medlemmar!" + Environment.NewLine + 
+                //                @" " + Environment.NewLine + 
+                //                @"Den 8 maj Ukrainska Alliansen i Sverige tillsammans med" + Environment.NewLine + 
+                //                @"Ukrainskt - Svenskt Kulturförening genomför i Sverige en aktion" + Environment.NewLine + 
+                //                @"""St George`s Band"" startar runt om i världen och även i Sverige" + Environment.NewLine + 
+                //                @"på kämparerna mot fascismen gravarna. " + Environment.NewLine + 
+                //                @" " + Environment.NewLine + 
+                //                @"VÄLKOMNA!" + Environment.NewLine + 
+                //                @" " + Environment.NewLine + 
+                //                @"Aktionen är ägnat påminnelsen av Segern i Det Stora försterländska kriget och" + Environment.NewLine + 
+                //                @"Eurodagen, som hyllar slutet av det Andra världskriget." + Environment.NewLine + 
+                //                @" " + Environment.NewLine + 
+                //                @"Välkomna alla som vill hedra minnet av kämparna mot fascismen genom att" + Environment.NewLine + 
+                //                @"tända Ljus och symboliskt lägga blommor på gravarna." + Environment.NewLine + 
+                //                @" " + Environment.NewLine + 
+                //                @"Program" + Environment.NewLine + 
+                //                @"Göteborg" + Environment.NewLine + 
+                //                @"Den 8 maj, kl: 11.00 på Askim Montessoriskola utställning ""Tack"" eller ""Minnas""." + Environment.NewLine + 
+                //                @"Efter utställningen konsert med pianisten Irina Belkovskaja. Prisutdelning för alla" + Environment.NewLine + 
+                //                @"deltagarer av barnmåleritävling." + Environment.NewLine + 
+                //                @"Kaffe och kakor. Fri entre." + Environment.NewLine + 
+                //                @" " + Environment.NewLine + 
+                //                @"MVH. Tetyana Rep", 
+                //    Photos = new List<BlogPhoto>() 
+                //    {
+                //        new BlogPhoto { FileName = "blogg/dsc00461.jpg" },
+                //        new BlogPhoto { FileName = "blogg/dsc00462.jpg" },
+                //        new BlogPhoto { FileName = "blogg/dsc00464.jpg" },
+                //        new BlogPhoto { FileName = "blogg/dsc00471.jpg" },
+                //        new BlogPhoto { FileName = "blogg/dsc00477.jpg" },
+                //        new BlogPhoto { FileName = "blogg/dsc00478.jpg" },
+                //        new BlogPhoto { FileName = "blogg/dsc00479.jpg" },
+                //        new BlogPhoto { FileName = "blogg/dsc00480.jpg" },
+                //    }
+                //},
                 new BlogItem
                 { 
                     Id = 14,
