@@ -42,7 +42,11 @@ namespace MvcRuslana.Infrastructure
                     BlogHeader = @"BOKMÄSSAN den 24-27 september i Göteborg 2015.",
                     BlogText =  @"Ukrainska Alliansen i Sverige var för andra gången i år en av de 1000 utställare med monter på Bok -och Biblioteksmässan i Göteborg. Vi bestämde oss dock för att delta, till största del för att vi är en politiskt oberoende organisation samtidigt som vi ville visa att vi tror på Ukrainas framtid och gav människorna möjlighet till att få veta mer om oss och vår verksamhet. Intresset var stort eftersom många var insatta på grund av nyhetsrapporteringen men det var endast positivt då människor själva sökte sig till vår monter och upptäckte relativt fort att de kunde få veta om mycket mer än det politiska. På Bokmässan deltog våra lokala föreningar från Trelleborg ”Sydskånska Ukrainahjälpen”, ”HINK” från Hudiksvall, "" Svenska Kosacker"" från Stockholm, ""Flerspråkiga barn och föräldrar"" samt Ukrainskt-Svenskt Kulturförening från Göteborg. Vi vill tacka våra artister som uppträdde på lilla scenen som utfördes på Internationella torget den 26 september. Artisterna kom från Ukrainska Alliansen som låg bakom framträdandet. Artisterna som ska ha ett stort tack är pianisten Irina Belkovskaja ,operasångarna Irina Moshkova-Paulsen och Nikolaj Gilov och flöjtist Anastasija Bila. " + Environment.NewLine +
                     @"Med vänlig hälsning." + Environment.NewLine +
-                    "Tetyana Rep - ordförande Ukrainska Alliansen i Sverige",
+                    @"Tetyana Rep - ordförande Ukrainska Alliansen i Sverige" + Environment.NewLine,
+                    Clips = new List<BlogClip>()
+                    {
+                        new BlogClip { ClipId = "4vTJcOnzOAY" },
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/151004_04D1D.JPG" },
@@ -72,6 +76,10 @@ namespace MvcRuslana.Infrastructure
                         @"Vi ses snart igen!" + Environment.NewLine +
                         @"Med vänlig hälsning." + Environment.NewLine +
                         @"Tetyana Rep - ordförande",
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC02801.JPG" },
@@ -94,6 +102,10 @@ namespace MvcRuslana.Infrastructure
                         @" speciellt om era käraste kvinnor och vi ser framemot att se er alla nästa år igen." + Environment.NewLine + 
                         @"Med vänlig hälsning." + Environment.NewLine + 
                         @"Tetyana Rep - ordförande ",
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC02727.JPG" },
@@ -117,6 +129,10 @@ namespace MvcRuslana.Infrastructure
                         @"Tack till föreläsarna samt alla som deltog." + Environment.NewLine + 
                         @"Med vänlig hälsning." + Environment.NewLine + 
                         @"Tetyana Rep - ordförande ",
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC02605.JPG" },
@@ -139,6 +155,9 @@ namespace MvcRuslana.Infrastructure
                         @"" + Environment.NewLine + 
                         @"Styrelsen UAIS" + Environment.NewLine + 
                         @"",
+                    Clips = new List<BlogClip>()
+                    {
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/141114image1.JPG" },
@@ -164,6 +183,10 @@ namespace MvcRuslana.Infrastructure
                                 @"välmående. " + Environment.NewLine + 
                                 @"Med vänlig hälsning. " + Environment.NewLine + 
                                 @"Tetyana Rep - ordförande ",
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC02499.JPG" },
@@ -185,6 +208,10 @@ namespace MvcRuslana.Infrastructure
                                 @" Det var en glädjefull dag." + Environment.NewLine + 
                                 @" Med vänlig hälsning." + Environment.NewLine + 
                                 @" Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/140323.png" },
@@ -203,6 +230,10 @@ namespace MvcRuslana.Infrastructure
                                 @" Vi diskuterade även hur kvinnor ser på detta för att i utsatta situationen är det oftast kvinnor, barn och äldre som råkar mest illa ut. Vi är tacksamma att så många kunde vara med. " + Environment.NewLine + 
                                 @" Med vänlig hälsning." + Environment.NewLine + 
                                 @" Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC02349.jpg" },
@@ -231,6 +262,10 @@ namespace MvcRuslana.Infrastructure
                                 @" " + Environment.NewLine + 
                                 @" Med vänlig hälsning." + Environment.NewLine + 
                                 @" Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC04183.jpg" },
@@ -253,6 +288,10 @@ namespace MvcRuslana.Infrastructure
                                 @"Med vänlig hälsning." + Environment.NewLine + 
                                 @"" + Environment.NewLine + 
                                 @"Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC02296.jpg" },
@@ -272,6 +311,10 @@ namespace MvcRuslana.Infrastructure
                                 @" Tack Vaida för den intressant föreläsning om ""Tupperware""." + Environment.NewLine + 
                                 @" Med vänlig hälsning. " + Environment.NewLine + 
                                 @" Tetyana Rep", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC02262.jpg" },
@@ -293,6 +336,10 @@ namespace MvcRuslana.Infrastructure
                                 @" Vi fick se en riktigt trollkarl! Det var så otroligt med sant!" + Environment.NewLine + 
                                 @" Med vänlig hälsning." + Environment.NewLine + 
                                 @" Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC02219.jpg" },
@@ -314,6 +361,10 @@ namespace MvcRuslana.Infrastructure
                                 @" " + Environment.NewLine + 
                                 @" Hälsningar " + Environment.NewLine + 
                                 @" Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC02153.jpg" },
@@ -332,6 +383,10 @@ namespace MvcRuslana.Infrastructure
                                 @"" + Environment.NewLine + 
                                 @" Med vänliga hälsningar" + Environment.NewLine + 
                                 @" Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC02126.jpg" },
@@ -349,6 +404,10 @@ namespace MvcRuslana.Infrastructure
                                 @" Vi vill tacka alla er som tog er tiden och deltog på Kvinnokonferensen 14 september,som hölls på Emigranternas Hus. Det var riktig kul att så många kunde delta och utbyta egna erfarenheter samt fick chansen att lära sig massa nyttig information. Vi vill framföra extra tacksamhet till dem som bidrog till att dagen blev så händelser - samt lärorik. Så tack Mikael Petersson för en sån lärorik presentation om trygghet, den var otroligt lärorik. Tack Rashin för en sån fantastisk föreläsning, du är en sann inspirationskälla. Sist men inte minst tack till våra gäster och medlemmar från Stockholm, Folksångsgruppen ""Blommiga Själen"", otroligt spännande och underhållande. Vi ses nästa gång 6 oktober, mer info kommer skickas ut längre fram." + Environment.NewLine + 
                                 @" Med vänlig hälsning" + Environment.NewLine + 
                                 @" Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/Rashin.jpg" },
@@ -407,6 +466,10 @@ namespace MvcRuslana.Infrastructure
                                 @" Vi ses snart igen." + Environment.NewLine + 
                                 @" Med vänlig hälsning." + Environment.NewLine + 
                                 @" Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC02050.jpg" },
@@ -426,6 +489,10 @@ namespace MvcRuslana.Infrastructure
                                 @"till oss era synpunkter. Nu ser vi framemot att få jobba med er och är " + Environment.NewLine + 
                                 @"väldigt glada över att ni gav oss så positiv respons." + Environment.NewLine + 
                                 @"MVH. Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC01993.jpg" },
@@ -461,6 +528,10 @@ namespace MvcRuslana.Infrastructure
                                 @" Vi vill tacka för så trevlig och givande föreläsning för kvinnor." + Environment.NewLine + 
                                 @" Med vänlig hälsning." + Environment.NewLine + 
                                 @" Tetyana Rep", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC01915.jpg" },
@@ -499,6 +570,10 @@ namespace MvcRuslana.Infrastructure
                                 @" och höra fakta som gör oss extra försiktiga i trafiken." + Environment.NewLine + 
                                 @" Med vänlig hälsning." + Environment.NewLine + 
                                 @" Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC01889.jpg" },
@@ -517,6 +592,10 @@ namespace MvcRuslana.Infrastructure
                                 @" Tack för fin atmosfär och trevlig sällskap." + Environment.NewLine + 
                                 @" Med vänlig hälsning" + Environment.NewLine + 
                                 @" Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC01860.jpg" },
@@ -540,6 +619,10 @@ namespace MvcRuslana.Infrastructure
                                 @" " + Environment.NewLine + 
                                 @" MVH.Tetyana Rep - ordförande" + Environment.NewLine + 
                                 @" Tel: 0737310094", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC01825.jpg" },
@@ -564,6 +647,10 @@ namespace MvcRuslana.Infrastructure
                                 @" " + Environment.NewLine + 
                                 @" MVH.Tetyana Rep" + Environment.NewLine + 
                                 @" Tel: 0737310094", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC01787.jpg" },
@@ -593,6 +680,10 @@ namespace MvcRuslana.Infrastructure
                                 @" " + Environment.NewLine + 
                                 @" MVH.Tetyana Rep - ordförande" + Environment.NewLine + 
                                 @" Tel: 0737310094", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC01753.jpg" },
@@ -608,6 +699,10 @@ namespace MvcRuslana.Infrastructure
                     BlogCreated = new DateTime(2012,11,28),
                     BlogHeader = @"Möte",
                     BlogText = @"Den 28 november 2012  Stockholm, Alexsander Eriksson(vise ordförande UAIS) tillsammans med Lioudmila Sigel(ordförande Ryska Riksförbundet) på möte till dialog om att motverka etnisk diskriminering.", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/121128.jpg" },
@@ -628,6 +723,10 @@ namespace MvcRuslana.Infrastructure
                                 @"trevlig dag, ta hand om varandra, och vi ser framemot att se er alla nästa år igen." + Environment.NewLine + 
                                 @" " + Environment.NewLine + 
                                 @"MVH. Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC01616.jpg" },
@@ -650,6 +749,10 @@ namespace MvcRuslana.Infrastructure
                                 @"sjunga och spela instrument, samt rita." + Environment.NewLine + 
                                 @" Alltid trevlig stämning och trevliga människor." + Environment.NewLine + 
                                 @"MVH. Tetyana Rep", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC01584.jpg" },
@@ -668,6 +771,10 @@ namespace MvcRuslana.Infrastructure
                                 @"Askims Montessoriskola på den fantastiska och" + Environment.NewLine + 
                                 @"mycket givande föreläsningen av psykologen Alla Choifer." + Environment.NewLine + 
                                 @"MVH. Tetyana Rep - ordförande.", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC01548.jpg" },
@@ -691,6 +798,10 @@ namespace MvcRuslana.Infrastructure
                                 @" " + Environment.NewLine + 
                                 @"MVH.Tetyana Rep - ordförande" + Environment.NewLine + 
                                 @"Tel: 0737310094", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/IMG_1203.jpg" },
@@ -741,6 +852,10 @@ namespace MvcRuslana.Infrastructure
                                 @"Ni alla som vanligt är bäst och tillsammans är vi starka." + Environment.NewLine + 
                                 @"" + Environment.NewLine + 
                                 @"MVH. Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC01263.jpg" },
@@ -763,6 +878,10 @@ namespace MvcRuslana.Infrastructure
                                 @"borsjen den 10 mars till ""Matresa på Axel Huset"". Ni var bästa, ännu en" + Environment.NewLine + 
                                 @"gång tack för stöd och hjälp!" + Environment.NewLine + 
                                 @"MVH.Tetyana Rep", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/P1190030.jpg" },
@@ -805,6 +924,10 @@ namespace MvcRuslana.Infrastructure
                                 @"och vi ser framemot att se er alla nästa år igen." + Environment.NewLine + 
                                 @"" + Environment.NewLine + 
                                 @"MVH. Tetyana Rep - ordförande", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/Nastja_Bila.jpg" },
@@ -843,6 +966,10 @@ namespace MvcRuslana.Infrastructure
                                 @" " + Environment.NewLine + 
                                 @"MVH " + Environment.NewLine + 
                                 @"Tetyana Rep - ordförande Ukrainska Alliansen i Sverige", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/DSC00672.jpg" },
@@ -864,6 +991,10 @@ namespace MvcRuslana.Infrastructure
                     BlogText = @"Foto - Ukraina vokalansambl ""DEBUT"" den 23.09 på Allegårdens Pensionärsförening" + Environment.NewLine + 
                                 @"Visit konsula den 23.09 på Askim Montessoriskola" + Environment.NewLine + 
                                 @"MVH Tetyana", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/2011001.jpg" },
@@ -950,6 +1081,10 @@ namespace MvcRuslana.Infrastructure
                                 @"Stor Tack till alla som ordnade den fantastiska träffen." + Environment.NewLine + 
                                 @" " + Environment.NewLine + 
                                 @"MVH. Tetyana Rep", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/dsc00412.jpg" },
@@ -976,6 +1111,10 @@ namespace MvcRuslana.Infrastructure
                                 @"och alla vår glada." + Environment.NewLine + 
                                 @" " + Environment.NewLine + 
                                 @"MVH. Tetyana Rep", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/dsc00379.jpg" },
@@ -991,6 +1130,10 @@ namespace MvcRuslana.Infrastructure
                     BlogHeader = @"Film ""Väskan""",
                     BlogText = @"Film ""Väskan""" + Environment.NewLine + 
                                 @"MVH. Tetyana Rep", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "dsc00366.jpg" },
@@ -1006,6 +1149,10 @@ namespace MvcRuslana.Infrastructure
                     BlogText = @"Filmfestivalen 23 jan 2011" + Environment.NewLine + 
                                 @"Med hjärtliga hälsningar" + Environment.NewLine + 
                                 @"Tetyana Rep", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/dsc00316.jpg" },
@@ -1019,6 +1166,10 @@ namespace MvcRuslana.Infrastructure
                     BlogCreated = new DateTime(2011,01,16),
                     BlogHeader = @"Årsmöte",
                     BlogText = @"Årsmöte 16 jan 2011", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/dsc00294.jpg" },
@@ -1044,6 +1195,10 @@ namespace MvcRuslana.Infrastructure
                                 @" " + Environment.NewLine + 
                                 @"Med hjärtliga hälsningar" + Environment.NewLine + 
                                 @"Tetyana Rep", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg/dsc00109.jpg" },
@@ -1058,6 +1213,10 @@ namespace MvcRuslana.Infrastructure
                     BlogCreated = new DateTime(2010,11,11),
                     BlogHeader = @"Ukrainska Alliansen i Sverige tillsammans med Ukrainskt-Svenskt Kulturförening i minimässa, presenterar vår kultur och vår äldre grupp",
                     BlogText = @"Ukrainska Alliansen i Sverige tillsammans med Ukrainskt-Svenskt Kulturförening i minimässa, presenterar vår kultur och vår äldre grupp.", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg101125/DSC00047.jpg" },
@@ -1083,6 +1242,10 @@ namespace MvcRuslana.Infrastructure
                                 @"" + Environment.NewLine + 
                                 @"Med hjärtliga hälsningar," + Environment.NewLine + 
                                 @"Tetyana Rep", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg100930/S6301357.jpg" },
@@ -1100,6 +1263,10 @@ namespace MvcRuslana.Infrastructure
                     BlogCreated = new DateTime(2010,08,30),
                     BlogHeader = @"Vår Utställning ""Ukrainas folkdräkter genom åren"" den 30 augusti - 9 september 2010 på Stadsbiblioteket",
                     BlogText = @"Utställning ""Ukrainas folkdräkter genom åren"" den 30 augusti - 9 september 2010 på Stadsbiblioteket.", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg100830/s6301300.jpg" },
@@ -1123,6 +1290,10 @@ namespace MvcRuslana.Infrastructure
                                 @"Det var roligt både för barn och vuxna." + Environment.NewLine + 
                                 @"Med Vänliga Hälsningar," + Environment.NewLine + 
                                 @"Tetyana Rep", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "blogg100522/S6301057.jpg" },
@@ -1155,6 +1326,10 @@ namespace MvcRuslana.Infrastructure
                     BlogCreated = new DateTime(2009,12,05),
                     BlogHeader = @"Julbord med trolleri",
                     BlogText = @"Den 5 December 2009 från kl.12.00 - 16.00 gjorde vi Julbord för barn och vuxna. Det var professionell trolleri för barn från vår lokalförening, presenterat kom Petre Catanuanu. Kända operasångaren Irina Moshkova och barnkören sjöng till oss. Efteråt besökte tomten oss och gav presenter för barn. Vi bjöd på jullbord och fika.", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "s6300860.jpg" },
@@ -1166,6 +1341,10 @@ namespace MvcRuslana.Infrastructure
                     BlogCreated = new DateTime(2009,11,03),
                     BlogHeader = @"Föredrag ""Välkommen in till det Svenska samhället""",
                     BlogText = @"Den 3 November 2009 hade vi en föreläsning för våra lokalmedlemmar med temat: ""Välkommen in till det Svenska samhället"". Elena Persson höll föreläsningen.", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "s6300750.jpg" },
@@ -1177,6 +1356,10 @@ namespace MvcRuslana.Infrastructure
                     BlogCreated = new DateTime(2009,10,25),
                     BlogHeader = @"Föreläsning på Odinskolan för våra lokalföreningar om Ångeset och Panikattacker",
                     BlogText = @"Den 25 Oktober 2009 från kl.10.30-14.00 hade vi en föreläsning på Odinskolan för våra lokalföreningar om Ångeset och Panikattacker samt olika hälsoproblem bland annat Hiv mm. Samt hur man bäst kan behandla själv. Yvette Holinger har gjort föreläsningen, kvinnorna hade många frågor om ångest och panikproblematik. Det var en lyckad dag med många information och råd. Efter föreläsningen bjöd vi på fika.", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "s6300725.jpg" },
@@ -1188,6 +1371,10 @@ namespace MvcRuslana.Infrastructure
                     BlogCreated = new DateTime(2009,10,24),
                     BlogHeader = @"Det riktiga arbetet med Ukrainska Alliansen börjar",
                     BlogText = @"Den 24 Oktober 2009 började vi det riktiga arbetet med Ukrainska Alliansen i samband med våra lokalföreningar. Vi hade öppet hus på FN dagen där vi presenterade vår kultur med olika programmer bland annat med kända Ukrainska operasångare, Irina Mochkova. Ukrainskt gymnastik presenterad av silvermedalj vinnaren, Ksenia Staroselets. Barnen sjöng Ukrainska sånger. Vi gjorde även en liten utställning om Ukraina, som hette ""Lär känna Ukraina"".", 
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
                     Photos = new List<BlogPhoto>() 
                     {
                         new BlogPhoto { FileName = "s6300766.jpg" },

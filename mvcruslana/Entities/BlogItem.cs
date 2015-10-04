@@ -14,5 +14,6 @@ namespace MvcRuslana.Entities
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
         public DateTime BlogCreated { get; set; }
         public List<BlogPhoto> Photos { get; set; }
+        public List<BlogClip> Clips { get; set; }
     }
 }
