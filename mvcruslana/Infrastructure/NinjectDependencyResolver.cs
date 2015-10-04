@@ -37,6 +37,32 @@ namespace MvcRuslana.Infrastructure
 
                 new BlogItem
                 { 
+                    Id = 51, 
+                    BlogCreated = new DateTime(2015,10,04), 
+                    BlogHeader = @"BOKMÄSSAN den 24-27 september i Göteborg 2015.",
+                    BlogText =  @"Ukrainska Alliansen i Sverige var för andra gången i år en av de 1000 utställare med monter på Bok -och Biblioteksmässan i Göteborg. Vi bestämde oss dock för att delta, till största del för att vi är en politiskt oberoende organisation samtidigt som vi ville visa att vi tror på Ukrainas framtid och gav människorna möjlighet till att få veta mer om oss och vår verksamhet. Intresset var stort eftersom många var insatta på grund av nyhetsrapporteringen men det var endast positivt då människor själva sökte sig till vår monter och upptäckte relativt fort att de kunde få veta om mycket mer än det politiska. På Bokmässan deltog våra lokala föreningar från Trelleborg ”Sydskånska Ukrainahjälpen”, ”HINK” från Hudiksvall, "" Svenska Kosacker"" från Stockholm, ""Flerspråkiga barn och föräldrar"" samt Ukrainskt-Svenskt Kulturförening från Göteborg. Vi vill tacka våra artister som uppträdde på lilla scenen som utfördes på Internationella torget den 26 september. Artisterna kom från Ukrainska Alliansen som låg bakom framträdandet. Artisterna som ska ha ett stort tack är pianisten Irina Belkovskaja ,operasångarna Irina Moshkova-Paulsen och Nikolaj Gilov och flöjtist Anastasija Bila. " + Environment.NewLine +
+                    @"Med vänlig hälsning." + Environment.NewLine +
+                    "Tetyana Rep - ordförande Ukrainska Alliansen i Sverige",
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/151004_04D1D.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_05E1E.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_06F1F.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_07TA1A.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_08TA2B.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_09TA3C.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_10TA4D.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_11G1G.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_12H1H.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_13i1i.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_14J1J.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_15K1K.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_16L1L.JPG" },
+                        new BlogPhoto { FileName = "blogg/151004_17M1M.JPG" },
+                    }
+                },   
+                new BlogItem
+                { 
                     Id = 50, 
                     BlogCreated = new DateTime(2015,05,25), 
                     BlogHeader = @"I HOPP OM EN LJUSARE FRAMTID 10 maj", 
