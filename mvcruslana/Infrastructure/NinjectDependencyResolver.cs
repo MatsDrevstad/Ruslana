@@ -37,6 +37,52 @@ namespace MvcRuslana.Infrastructure
 
                 new BlogItem
                 { 
+                    Id = 53, 
+                    BlogCreated = new DateTime(2015,11,22), 
+                    BlogHeader = @"Kransens betydelse i ukrainsk kultur.",
+                    BlogText =  @"Hej" + Environment.NewLine + Environment.NewLine +
+                        @"Jag vill tacka alla för vårt samarbete som resulterade med så lyckad utställning den 15 november på ABF i Stockholm ""Kriget av dem glömda kvinnor"". " + Environment.NewLine +
+                        @"Alla som jag har pratat med varit imponerade av vårt arbete." + Environment.NewLine + Environment.NewLine +
+                        @"Med vänlig hälsning." + Environment.NewLine + Environment.NewLine +
+                        @"Tetyana Rep - ordförande",
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/20151129IMG_3656.JPG" },
+                    }
+                },   
+                new BlogItem
+                { 
+                    Id = 52, 
+                    BlogCreated = new DateTime(2015,11,22), 
+                    BlogHeader = @"Kransens betydelse i ukrainsk kultur.",
+                    BlogText =  @"Idag fick vi lära oss om kransens betydelse i ukrainsk kultur och traditioner kring det." + Environment.NewLine +
+                        @"Ukrainsk hantverkare Nina Sevasjtanova har presenterat handgjorda kransar och berättat om vilka färger och smycken var traditionella för olika regioner. " + Environment.NewLine +
+                        @"Nina demonstrerade  flera bröllopskransar och olika smycken, och berättade att efter bröllopet kvinnan fick inte bära kransen länge. " + Environment.NewLine +
+                        @"En gift kvinna fick klippa håret kort och bära en själ som täckte håret helt. I olika delar av Ukraina fanns olika huvudbonader för gifta kvinnor. " + Environment.NewLine +
+                        @"Efter en mycket givande och intressant presentation hade vi en masterklass där vi fick lära oss göra egna kransar." + Environment.NewLine +
+                        @"Vi vill tacka Nina för den intressanta utställningen och hennes entusiastiska berättelsen." + Environment.NewLine +
+                        @"Vi vill också tacka ordföranden Tetyana Rep för hennes engagemang. Inte minst, tack alla meddlemar som kommit och deltagit i dagens träff." + Environment.NewLine + Environment.NewLine +
+                        @"Med vänlig hälsning." + Environment.NewLine +
+                        @"Styrelsen",
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/DSC03099.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03101.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03103.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03137.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03149.JPG" },
+                    }
+                },   
+                new BlogItem
+                { 
                     Id = 51, 
                     BlogCreated = new DateTime(2015,10,04), 
                     BlogHeader = @"BOKMÄSSAN den 24-27 september i Göteborg 2015.",
