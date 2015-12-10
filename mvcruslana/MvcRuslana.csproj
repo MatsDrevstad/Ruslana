@@ -231,6 +231,8 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Images\00574_4_Folksam_Banner_Ryska_180x240.jpg" />
+    <Content Include="Images\00574_4_Folksam_Banner_Ryska_240x120.jpg" />
     <Content Include="Images\140610.jpg" />
     <Content Include="Images\140806_carousel.png" />
     <Content Include="Images\140806.png" />
