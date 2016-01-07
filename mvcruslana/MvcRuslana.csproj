@@ -283,6 +283,7 @@
     <Content Include="Images\ludmilas151004.jpg" />
     <Content Include="Ruslana\images\150831.jpg" />
     <Content Include="Ruslana\images\150831_c.jpg" />
+    <Content Include="Ruslana\images\annonser\annons160107.png" />
     <Content Include="Ruslana\images\blogg\151004_01A1A.JPG" />
     <Content Include="Ruslana\images\blogg\151004_02B1B.JPG" />
     <Content Include="Ruslana\images\blogg\151004_03C1C.JPG" />
@@ -346,6 +347,7 @@
     <Content Include="Ruslana\images\DSC02832.JPG" />
     <Content Include="Ruslana\images\folksamryska.docx" />
     <Content Include="Ruslana\images\folksamryska.old.docx" />
+    <Content Include="Ruslana\images\annonser\annons160107.pdf" />
     <None Include="Scripts\jquery-1.8.2-vsdoc.js" />
     <Content Include="Images\logo2.png" />
     <Content Include="Images\sios_logo.gif" />
