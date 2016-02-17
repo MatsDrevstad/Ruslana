@@ -268,12 +268,14 @@
     <Content Include="Images\151004_15K1K.JPG" />
     <Content Include="Images\151004_16L1L.JPG" />
     <Content Include="Images\151004_17M1M.JPG" />
+    <Content Include="Images\160126.png" />
     <Content Include="Images\20120613_2.jpg" />
     <Content Include="Images\20120613_carousel.jpg" />
     <Content Include="Images\20120613.jpg" />
     <Content Include="Images\ABF_logga_ska_vara.jpg" />
     <Content Include="Images\alliansjul2015.jpg" />
     <Content Include="Images\alliansjul2015_carousel.jpg" />
+    <Content Include="Images\allianskvinnodag[3].jpg" />
     <Content Include="Images\allianssommar[4].png" />
     <Content Include="Images\annons151112.jpg" />
     <Content Include="Images\annons151112_2.jpg" />
@@ -309,6 +311,7 @@
     <Content Include="Ruslana\images\blogg\DSC02744.JPG" />
     <Content Include="Images\folksam.jpg" />
     <Content Include="Images\folksamryska.docx" />
+    <Content Include="Images\21060126.pdf" />
     <None Include="Properties\PublishProfiles\Citynetwork.pubxml" />
     <None Include="Properties\PublishProfiles\ruslana.pubxml" />
     <Content Include="Ruslana\images\annonser\20120417.pdf" />
