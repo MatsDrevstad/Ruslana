@@ -269,6 +269,7 @@
     <Content Include="Images\151004_16L1L.JPG" />
     <Content Include="Images\151004_17M1M.JPG" />
     <Content Include="Images\160126.png" />
+    <Content Include="Images\160306.png" />
     <Content Include="Images\20120613_2.jpg" />
     <Content Include="Images\20120613_carousel.jpg" />
     <Content Include="Images\20120613.jpg" />
@@ -312,6 +313,7 @@
     <Content Include="Images\folksam.jpg" />
     <Content Include="Images\folksamryska.docx" />
     <Content Include="Images\21060126.pdf" />
+    <Content Include="Images\kvinnokonferens.pdf" />
     <None Include="Properties\PublishProfiles\Citynetwork.pubxml" />
     <None Include="Properties\PublishProfiles\ruslana.pubxml" />
     <Content Include="Ruslana\images\annonser\20120417.pdf" />
@@ -344,6 +346,14 @@
     <Content Include="Ruslana\images\blogg\DSC03103.JPG" />
     <Content Include="Ruslana\images\blogg\DSC03137.JPG" />
     <Content Include="Ruslana\images\blogg\DSC03149.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC_0811.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC_0812.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC_0813.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC_0820.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC_0822.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC_0824.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC_0829.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC_0833.JPG" />
     <Content Include="Ruslana\images\DSC02801.JPG" />
     <Content Include="Ruslana\images\DSC02823.JPG" />
     <Content Include="Ruslana\images\DSC02826.JPG" />

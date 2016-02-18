@@ -37,9 +37,36 @@ namespace MvcRuslana.Infrastructure
 
                 new BlogItem
                 { 
+                    Id = 54, 
+                    BlogCreated = new DateTime(2016,02,06), 
+                    BlogHeader = @"Kriget och den glömda kvinnan",
+                    BlogText =  @"Hej kära vänner!!!" + Environment.NewLine + Environment.NewLine +
+                        @"Jag vill tacka alla som kom till utställningen den 6 februari  och framförde fantastiska och intressanta presentationer på utställningen" + Environment.NewLine + 
+                        @"'Kriget av dem glömda kvinnan'. Det är kvinnorna som är hjältinnorna i vår utställning som visar kvinnornas öden, med bidrag från 8 olika grupper. " + Environment.NewLine + 
+                        @"Alla som jag har pratat med varit imponerade av vårt arbete." + Environment.NewLine + Environment.NewLine + 
+                        @"Med vänlig hälsning." + Environment.NewLine +
+                        @"Tetyana Rep - ordförande Ukrainska Alliansen i Sverige",
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/DSC_0811.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC_0812.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC_0813.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC_0820.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC_0822.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC_0824.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC_0829.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC_0833.JPG" },
+                    }
+                },   
+                new BlogItem
+                { 
                     Id = 53, 
-                    BlogCreated = new DateTime(2015,11,22), 
-                    BlogHeader = @"Kransens betydelse i ukrainsk kultur.",
+                    BlogCreated = new DateTime(2015,11,15), 
+                    BlogHeader = @"Kriget och den glömda kvinnan.",
                     BlogText =  @"Hej" + Environment.NewLine + Environment.NewLine +
                         @"Jag vill tacka alla för vårt samarbete som resulterade med så lyckad utställning den 15 november på ABF i Stockholm ""Kriget av dem glömda kvinnor"". " + Environment.NewLine +
                         @"Alla som jag har pratat med varit imponerade av vårt arbete." + Environment.NewLine + Environment.NewLine +
