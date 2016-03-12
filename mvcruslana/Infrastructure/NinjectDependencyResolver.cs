@@ -38,6 +38,33 @@ namespace MvcRuslana.Infrastructure
                 new BlogItem
                 { 
                     Id = 54, 
+                    BlogCreated = new DateTime(2016,03,06), 
+                    BlogHeader = @"Kvinnokonferens ""KVINNAS RÄTTIGHETER""",
+                    BlogText =  @"Hej kära vänner!!!" + Environment.NewLine + Environment.NewLine +
+@"Jag vill så hjärtligt tacka alla som kom och deltog vid Kvinnokonferensen ""KVINNAS RÄTTIGHETER"" den 6 mars på Askims Montessoriskola. Ett särskilt tack till våra gäster Vladimir Reznik (Han har mångårig erfarenhet som jurist) och Didar Zuta ordförande i Centerkvinnorna i Göteborg, ni gjorde den här dagen unik.
+Det var en intressant föreläsning och det uppskattades väldigt mycket att en manlig föreläsa höll i den, då många påpekade att det inte  ofta ute i samhället som många pratar öppet om just detta. 
+Tack till Tatiana Miralm för all nyttig information om Folksam och dess fina hjälpmedel, som föreläste om
+försäkringar, då det alltid är att aktuellt ämne och alla medlemmar får chansen att mer ingående få veta om vad som kan funka bäst i just i deras situation samt hur man ska tänka angående sitt pensionssparande. Tack för Petre Cataneanu är illusionisten som alltid skapar magi på alla våra evenemang. Ännu ett tack till var och en av er som kom, hoppas ni hade en trevlig dag, ta hand om varandra, speciellt om era käraste kvinnor och vi ser framemot att se er alla nästa år igen. " + Environment.NewLine +
+                        @"Med vänlig hälsning." + Environment.NewLine +
+                        @"Tetyana Rep - ordförande Ukrainska Alliansen i Sverige",
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/DSC03282.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03285.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03291.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03295.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03314.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03317.JPG" },
+                    }
+                },   
+
+                new BlogItem
+                { 
+                    Id = 54, 
                     BlogCreated = new DateTime(2016,02,06), 
                     BlogHeader = @"Kriget och den glömda kvinnan",
                     BlogText =  @"Hej kära vänner!!!" + Environment.NewLine + Environment.NewLine +
