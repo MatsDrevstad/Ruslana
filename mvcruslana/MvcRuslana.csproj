@@ -286,6 +286,11 @@
     <Content Include="Images\bg.png" />
     <Content Include="Images\frölkultur[4].jpg" />
     <Content Include="Images\frölkultur[4]_.jpg" />
+    <Content Include="Images\IMG_6892.JPG" />
+    <Content Include="Images\IMG_6895.JPG" />
+    <Content Include="Images\IMG_6897.JPG" />
+    <Content Include="Images\IMG_6898.JPG" />
+    <Content Include="Images\IMG_6899.JPG" />
     <Content Include="Images\ludmilas151004.jpg" />
     <Content Include="Ruslana\images\150831.jpg" />
     <Content Include="Ruslana\images\150831_c.jpg" />
@@ -363,6 +368,11 @@
     <Content Include="Ruslana\images\blogg\DSC_0824.JPG" />
     <Content Include="Ruslana\images\blogg\DSC_0829.JPG" />
     <Content Include="Ruslana\images\blogg\DSC_0833.JPG" />
+    <Content Include="Ruslana\images\blogg\IMG_6892.JPG" />
+    <Content Include="Ruslana\images\blogg\IMG_6895.JPG" />
+    <Content Include="Ruslana\images\blogg\IMG_6897.JPG" />
+    <Content Include="Ruslana\images\blogg\IMG_6898.JPG" />
+    <Content Include="Ruslana\images\blogg\IMG_6899.JPG" />
     <Content Include="Ruslana\images\DSC02801.JPG" />
     <Content Include="Ruslana\images\DSC02823.JPG" />
     <Content Include="Ruslana\images\DSC02826.JPG" />

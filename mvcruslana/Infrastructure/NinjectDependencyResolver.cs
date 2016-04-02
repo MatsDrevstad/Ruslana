@@ -37,6 +37,29 @@ namespace MvcRuslana.Infrastructure
 
                 new BlogItem
                 { 
+                    Id = 55, 
+                    BlogCreated = new DateTime(2016,03,30), 
+                    BlogHeader = @"Vackra påskägg och folkmusik från Ukraina",
+                    BlogText =  @"Hej kära vänner!" + Environment.NewLine + Environment.NewLine +
+                    @"Vi tackar alla som har kommit till vår familjeprogram ""Vackra påskägg och folkmusik från Ukraina"" den 30 mars på Frölunda Kulturhus och har deltagit i underhållande workshop med musik och äggmålning och ge bort målade ägg, som är ett tecken på vänskap och uppskattning under påsken." + Environment.NewLine + Environment.NewLine +
+                        @"Med vänlig hälsning." + Environment.NewLine +
+                        @"Tetyana Rep - ordförande Ukrainska Alliansen i Sverige",
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/IMG_6892.JPG" },
+                        new BlogPhoto { FileName = "blogg/IMG_6895.JPG" },
+                        new BlogPhoto { FileName = "blogg/IMG_6897.JPG" },
+                        new BlogPhoto { FileName = "blogg/IMG_6898.JPG" },
+                        new BlogPhoto { FileName = "blogg/IMG_6899.JPG" },
+                    }
+                },   
+
+                                new BlogItem
+                { 
                     Id = 54, 
                     BlogCreated = new DateTime(2016,03,06), 
                     BlogHeader = @"Kvinnokonferens ""KVINNAS RÄTTIGHETER""",
