@@ -14,7 +14,7 @@
     </p>
 @foreach (var item in Model.Clips)
 {
-    <iframe width="420" height="315" src="http://www.youtube.com/embed/@Url.Content(item.ClipId)?autoplay=1"></iframe>
+    <iframe width="420" height="315" src="http://www.youtube.com/embed/@Url.Content(item.ClipId)?autoplay=0"></iframe>
 }
 @foreach (var item in Model.Photos)
 {

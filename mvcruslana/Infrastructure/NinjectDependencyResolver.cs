@@ -46,7 +46,8 @@ namespace MvcRuslana.Infrastructure
                         @"Tetyana Rep - ordförande Ukrainska Alliansen i Sverige",
                     Clips = new List<BlogClip>()
                     {
-
+                        new BlogClip() { ClipId = "Pq-pUyrJXf8" },
+                        new BlogClip() { ClipId = "MjStf4VC8Y0" },
                     },
                     Photos = new List<BlogPhoto>() 
                     {
