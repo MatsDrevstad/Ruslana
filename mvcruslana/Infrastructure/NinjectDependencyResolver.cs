@@ -37,6 +37,28 @@ namespace MvcRuslana.Infrastructure
 
                 new BlogItem
                 { 
+                    Id = 56, 
+                    BlogCreated = new DateTime(2016,04,09), 
+                    BlogHeader = @"2016 kultur och språkfestivalen på Stadsbiblioteket",
+                    BlogText =  @"Hej kära vänner!" + Environment.NewLine + Environment.NewLine +
+                    @"Vi tackar våra artister från kör ""Veselka"" Daria Rep, Ivan Rep och Lyuda Kuzminova med körledaren Anastasia Bila för underbart uppträdande på Kultur och språkfestivalen i Göteborgs Stadsbiblioteket den 9 april 2016. Samt vi vill tacka vår konstnär och bildlärare Olena Sushynska för vackert och intressant konst utställning av tavlor och skulpturer i ukrainsk stil." + Environment.NewLine + Environment.NewLine +
+                        @"Med vänlig hälsning." + Environment.NewLine +
+                        @"Tetyana Rep - ordförande Ukrainska Alliansen i Sverige",
+                    Clips = new List<BlogClip>()
+                    {
+
+                    },
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/DSC03353.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03358.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03369.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03371.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03376.JPG" },
+                    }
+                },   
+                new BlogItem
+                { 
                     Id = 55, 
                     BlogCreated = new DateTime(2016,03,30), 
                     BlogHeader = @"Vackra påskägg och folkmusik från Ukraina",
