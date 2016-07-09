@@ -274,6 +274,7 @@
     <Content Include="Images\160617.jpg" />
     <Content Include="Images\160709.jpg" />
     <Content Include="Images\160709_.png" />
+    <Content Include="Images\160709_2.png" />
     <Content Include="Images\20120613_2.jpg" />
     <Content Include="Images\20120613_carousel.jpg" />
     <Content Include="Images\20120613.jpg" />
@@ -330,6 +331,7 @@
     <Content Include="Images\folksamryska.docx" />
     <Content Include="Images\21060126.pdf" />
     <Content Include="Images\kvinnokonferens.pdf" />
+    <Content Include="Images\160709.odt" />
     <None Include="Properties\PublishProfiles\Citynetwork.pubxml" />
     <None Include="Properties\PublishProfiles\ruslana.pubxml" />
     <Content Include="Ruslana\images\annonser\20120417.pdf" />
