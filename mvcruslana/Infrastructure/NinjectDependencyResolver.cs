@@ -37,6 +37,28 @@ namespace MvcRuslana.Infrastructure
 
                 new BlogItem
                 { 
+                    Id = 58, 
+                    BlogCreated = new DateTime(2016,09,28), 
+                    BlogHeader = @"Bokmässan den 22-25 september",
+                    BlogText =  @"Den 22-25 september i Göteborg var det dags ännu en gång dags för den årliga BOKMÄSSAN. Ukrainska Alliansen i Sverige var för tredje året i rad en av de 1000 utställare med egen monter på Bok - och Biblioteksmässan i Göteborg. Vi bestämde oss för att delta, till största del för att vi är en politiskt oberoende organisation samtidigt som vi ville visa att vi tror på Ukrainas framtid och gav besökarna möjlighet till att ännu en gång få veta mer om oss, vår verksamhet och vår kultur. " + Environment.NewLine + Environment.NewLine +
+                    "Intresset var stort eftersom många var insatta på grund av nyhetsrapporteringen men det var endast positivt då människor själva sökte sig till vår monter och upptäckte relativt fort att de kunde få veta om mycket mer än det politiska. Kulturen var ett intressant ämne för många och många ville få veta mer, då man inte på ett enkelt sätt kan läsa sig till det på egen hand. Det visades mycket intresse för vår verksamhet och många tyckte att det var väldigt bra att vi deltog på ett så stort och populärt event som bokmässan." + Environment.NewLine + Environment.NewLine +
+                    "På bokmässan deltog våra lokalaföreningar ”HINK” från Hudiksvall, ”Bereginja” och Svenska Kosacker från Stockholm, ”Fler språkliga barn och föräldrar”(”FBF”) samt Ukrainskt-Svenskt Kulturförening från Göteborg. Förutom dessa aktörer så deltog även Ukrainska Alliansen Kvinnokommitté under de fyra dagarna på bokmässan." + Environment.NewLine + Environment.NewLine +
+                    "Mvh. " + Environment.NewLine +
+                    "Tetyana Rep - ordförande",
+                    Clips = new List<BlogClip>()
+                    {
+                    },
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/DSC03447.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03452.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03454.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03458.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03462.JPG" },
+                    }
+                },   
+                new BlogItem
+                { 
                     Id = 56, 
                     BlogCreated = new DateTime(2016,04,09), 
                     BlogHeader = @"2016 kultur och språkfestivalen på Stadsbiblioteket",

@@ -300,6 +300,12 @@
     <Content Include="Images\IMG_6898.JPG" />
     <Content Include="Images\IMG_6899.JPG" />
     <Content Include="Images\ludmilas151004.jpg" />
+    <Content Include="Images\thumbnail_IMG_2147.jpg" />
+    <Content Include="Images\thumbnail_IMG_2192.jpg" />
+    <Content Include="Images\thumbnail_IMG_2212.jpg" />
+    <Content Include="Images\thumbnail_IMG_2217.jpg" />
+    <Content Include="Images\thumbnail_IMG_2225.jpg" />
+    <Content Include="Images\thumbnail_IMG_2228.jpg" />
     <Content Include="Ruslana\images\150831.jpg" />
     <Content Include="Ruslana\images\150831_c.jpg" />
     <Content Include="Ruslana\images\160531.png" />
@@ -379,6 +385,11 @@
     <Content Include="Ruslana\images\blogg\DSC03369.JPG" />
     <Content Include="Ruslana\images\blogg\DSC03371.JPG" />
     <Content Include="Ruslana\images\blogg\DSC03376.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03447.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03452.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03454.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03458.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03462.JPG" />
     <Content Include="Ruslana\images\blogg\DSC_0811.JPG" />
     <Content Include="Ruslana\images\blogg\DSC_0812.JPG" />
     <Content Include="Ruslana\images\blogg\DSC_0813.JPG" />
@@ -392,6 +403,12 @@
     <Content Include="Ruslana\images\blogg\IMG_6897.JPG" />
     <Content Include="Ruslana\images\blogg\IMG_6898.JPG" />
     <Content Include="Ruslana\images\blogg\IMG_6899.JPG" />
+    <Content Include="Ruslana\images\blogg\thumbnail_IMG_2147.jpg" />
+    <Content Include="Ruslana\images\blogg\thumbnail_IMG_2192.jpg" />
+    <Content Include="Ruslana\images\blogg\thumbnail_IMG_2212.jpg" />
+    <Content Include="Ruslana\images\blogg\thumbnail_IMG_2217.jpg" />
+    <Content Include="Ruslana\images\blogg\thumbnail_IMG_2225.jpg" />
+    <Content Include="Ruslana\images\blogg\thumbnail_IMG_2228.jpg" />
     <Content Include="Ruslana\images\DSC02801.JPG" />
     <Content Include="Ruslana\images\DSC02823.JPG" />
     <Content Include="Ruslana\images\DSC02826.JPG" />
