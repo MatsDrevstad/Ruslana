@@ -59,6 +59,25 @@ namespace MvcRuslana.Infrastructure
                 },   
                 new BlogItem
                 { 
+                    Id = 57, 
+                    BlogCreated = new DateTime(2016,09,11), 
+                    BlogHeader = @"Föreläsning den 4 och 11 september",
+                    BlogText =  @"Vi tackar Alla Shoffer för de intressanta föreläsningarna där vi fick lära oss om relationer. En tankeställning om barnuppfostran genom fakta och diskussion.  Vara möten på söndagar blir ett andrum för oss, att kunna prata om livet och känslor i avslappnat miljö känns tillfredställande. Tackar vara medlemmar för visat intresse och Tetyana Rep för att du skapar den atmosfären där alla känner sig välkomna." + Environment.NewLine + " Mvh. " + Environment.NewLine + "Styrelsen",
+                    Clips = new List<BlogClip>()
+                    {
+                    },
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/thumbnail_IMG_2147.jpg" },
+                        new BlogPhoto { FileName = "blogg/thumbnail_IMG_2192.jpg" },
+                        new BlogPhoto { FileName = "blogg/thumbnail_IMG_2212.jpg" },
+                        new BlogPhoto { FileName = "blogg/thumbnail_IMG_2217.jpg" },
+                        new BlogPhoto { FileName = "blogg/thumbnail_IMG_2225.jpg" },
+                        new BlogPhoto { FileName = "blogg/thumbnail_IMG_2228.jpg" },
+                    }
+                },   
+                new BlogItem
+                { 
                     Id = 56, 
                     BlogCreated = new DateTime(2016,04,09), 
                     BlogHeader = @"2016 kultur och språkfestivalen på Stadsbiblioteket",
