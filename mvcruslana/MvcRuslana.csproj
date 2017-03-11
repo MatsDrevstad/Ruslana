@@ -295,6 +295,11 @@
     <Content Include="Images\annons151112_2_carousel.jpg" />
     <Content Include="Images\annons151112_carousel.jpg" />
     <Content Include="Images\bg.png" />
+    <Content Include="Images\DSC03544.JPG" />
+    <Content Include="Images\DSC03548.JPG" />
+    <Content Include="Images\DSC03550.JPG" />
+    <Content Include="Images\DSC03556.JPG" />
+    <Content Include="Images\DSC03563.JPG" />
     <Content Include="Images\frölkultur[4].jpg" />
     <Content Include="Images\frölkultur[4]_.jpg" />
     <Content Include="Images\IMG_6892.JPG" />
@@ -396,6 +401,11 @@
     <Content Include="Ruslana\images\blogg\DSC03454.JPG" />
     <Content Include="Ruslana\images\blogg\DSC03458.JPG" />
     <Content Include="Ruslana\images\blogg\DSC03462.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03544.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03548.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03550.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03556.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03563.JPG" />
     <Content Include="Ruslana\images\blogg\DSC_0811.JPG" />
     <Content Include="Ruslana\images\blogg\DSC_0812.JPG" />
     <Content Include="Ruslana\images\blogg\DSC_0813.JPG" />

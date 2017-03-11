@@ -37,6 +37,25 @@ namespace MvcRuslana.Infrastructure
 
                 new BlogItem
                 { 
+                    Id = 59, 
+                    BlogCreated = new DateTime(2016,09,28), 
+                    BlogHeader = @"Kvinnokonferens den 4 mars på Emigranternas Hus",
+                    BlogText =  @"Hej!" + Environment.NewLine + Environment.NewLine + 
+                    "Ukrainska Alliansen i Sverige och Ukrainskt-Svenskt Kulturförening  vill tacka alla deltagande under firandet av kvinnodagen den 4 mars 2017 på Emigranternas Hus. Vi tackar juristen Maria Guzman för en mycket intressant föreläsning . Våra deltagande/medlemmar visade stort intresse och engagemang för de frågor  som lyftes upp exempelvis kvinnor och jämställdhet, direkt och indirekt diskriminering, nationella och internationella regler för som stöd för kvinnors rättigheter mm. " + Environment.NewLine + "Under dagen fick flera även ställa frågor till juristen och få rådgivning i olika frågor. Detta visar på behovet inom området. Av den anledningen kommer Ukrainska Alliansen i Sverige att fortsatta arbeta med frågorna under hela året 2017 genom fortsatta föreläsningar. Vi tackar Lena Glagoleva och Nikolaj Giljov för underhållningen med pianot och sång, vi tackar illusionisten Petro Cataneanu och konstnären Olena Sushynska för sin utställning och vi tackar dansare från IFK förening. " + Environment.NewLine + Environment.NewLine + "Med vänlig hälsning. " + Environment.NewLine + "Tetyana Rep - ordförande  och Styrelsen UAIS",
+                    Clips = new List<BlogClip>()
+                    {
+                    },
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/DSC03544.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03548.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03550.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03556.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03563.JPG" },
+                    }
+                },   
+                new BlogItem
+                { 
                     Id = 58, 
                     BlogCreated = new DateTime(2016,09,28), 
                     BlogHeader = @"Bokmässan den 22-25 september",
