@@ -37,6 +37,24 @@ namespace MvcRuslana.Infrastructure
 
                 new BlogItem
                 { 
+                    Id = 60, 
+                    BlogCreated = new DateTime(2017,03,26), 
+                    BlogHeader = @"Juristfirman Guzman",
+                    BlogText =  @"Hej!" + Environment.NewLine + Environment.NewLine + 
+                    "Tack för en trevlig förmiddag. Under den första föreläsning diskuterade vi frågan om etnisk diskriminering och diskriminering av kvinnor med annan etnisk bakgrund. Det kom fram många synpunkter, frågor men samtidigt idéer om hur vi själva kan bidra till en förbättring. Bland annat kom fram konkreta idéer, öden och erfarenheter som bidrar till samhället. Bland de viktigaste vi kan göra är att bilda och utbilda oss själva om våra rättigheter. Det kom fram också att vi kvinnor kan hjälpa varandra mycket mer och vi behöver verktyg för att kanalisera våra kompetenser i den processen. OBS! Vi fortsätter diskussionen och arbetet med kvinnofrågan den 2 april istället för den 9 april och den i sista föreläsning i denna termin. " + Environment.NewLine + Environment.NewLine + "Med vänliga hälsningar" + Environment.NewLine + "Tetyana Rep - ordförande",
+                    Clips = new List<BlogClip>()
+                    {
+                    },
+                    Photos = new List<BlogPhoto>() 
+                    {
+                        new BlogPhoto { FileName = "blogg/DSC03574.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03573.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03569.JPG" },
+                        new BlogPhoto { FileName = "blogg/DSC03567.JPG" },
+                    }
+                },   
+                new BlogItem
+                { 
                     Id = 59, 
                     BlogCreated = new DateTime(2016,09,28), 
                     BlogHeader = @"Kvinnokonferens den 4 mars på Emigranternas Hus",

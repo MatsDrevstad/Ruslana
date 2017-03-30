@@ -280,6 +280,7 @@
     <Content Include="Images\160830.png" />
     <Content Include="Images\161117.png" />
     <Content Include="Images\170214.png" />
+    <Content Include="Images\170312.png" />
     <Content Include="Images\20120613_2.jpg" />
     <Content Include="Images\20120613_carousel.jpg" />
     <Content Include="Images\20120613.jpg" />
@@ -353,6 +354,7 @@
     <Content Include="Images\160830.pdf" />
     <Content Include="Images\161117.docx" />
     <Content Include="Images\170214.pdf" />
+    <Content Include="Images\170312.pdf" />
     <None Include="Properties\PublishProfiles\Citynetwork.pubxml" />
     <None Include="Properties\PublishProfiles\ruslana.pubxml" />
     <Content Include="Ruslana\images\annonser\20120417.pdf" />
@@ -406,6 +408,10 @@
     <Content Include="Ruslana\images\blogg\DSC03550.JPG" />
     <Content Include="Ruslana\images\blogg\DSC03556.JPG" />
     <Content Include="Ruslana\images\blogg\DSC03563.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03567.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03569.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03573.JPG" />
+    <Content Include="Ruslana\images\blogg\DSC03574.JPG" />
     <Content Include="Ruslana\images\blogg\DSC_0811.JPG" />
     <Content Include="Ruslana\images\blogg\DSC_0812.JPG" />
     <Content Include="Ruslana\images\blogg\DSC_0813.JPG" />
@@ -432,6 +438,7 @@
     <Content Include="Ruslana\images\folksamryska.docx" />
     <Content Include="Ruslana\images\folksamryska.old.docx" />
     <Content Include="Ruslana\images\annonser\annons160107.pdf" />
+    <None Include="Properties\PublishProfiles\Test billigjurist.pubxml" />
     <None Include="Scripts\jquery-1.8.2-vsdoc.js" />
     <Content Include="Images\logo2.png" />
     <Content Include="Images\sios_logo.gif" />
