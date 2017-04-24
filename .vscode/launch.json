@@ -1,0 +1,9 @@
+{
+	"version": "0.2.0",
+	"configurations": [],
+	"command": "microsoft-edge",
+	"windows": {
+		"command": "microsoft-edge.exe"
+	},
+	"args": ["index.html"]
+}
